@@ -1,4 +1,4 @@
-# HC-SR04 Sensor
+# HC-SR04 Ultrasonic Distance Sensor
 
 ## Introduction to the HC-SR04 Ultrasonic Distance Sensor for Arduino Uno
 
@@ -13,4 +13,8 @@ The circuit setup for using the HC-SR04 sensor with Arduino Uno to measure dista
 
 
 
+## Circuit Setup: Integrating HC-SR04 Ultrasonic Sensor, LED, and Arduino Uno for Distance Measurement and LED Control
 
+The circuit setup involves utilizing the HC-SR04 ultrasonic distance sensor, an LED, a resistor, and a breadboard in conjunction with an Arduino Uno. The HC-SR04 sensor is connected to the Arduino using four connections: VCC (power supply), GND (ground), Trig (trigger), and Echo (echo). The VCC pin of the sensor is connected to the 5V pin on the Arduino Uno, providing it with a stable power supply. The GND pin of the sensor is connected to the GND pin on the Arduino to establish a common ground. The Trig pin of the sensor is connected to a digital output pin on the Arduino, while the Echo pin is connected to a digital input pin. Additionally, an LED is connected to a digital output pin on the Arduino, with a current-limiting resistor placed in series to regulate the current flowing through the LED. The breadboard serves as a platform for organizing and connecting the components. When the Arduino measures the distance using the HC-SR04 sensor, if the distance reaches a specified point, it activates the LED by sending a signal through the corresponding digital output pin. The resistor ensures safe operation of the LED by controlling the current passing through it. The breadboard facilitates convenient arrangement and interconnection of the components, simplifying the circuit construction process.
+
+![Bodacious Esboo](https://github.com/Zahrah794/HC-SR04/assets/139267881/580059e8-33b6-4325-8a59-18a1c06adac8)
